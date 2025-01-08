@@ -19,6 +19,9 @@ This project is ideal for experimenting with traffic modeling, agent interaction
 * Grid Size: The size of the road grid can be modified for larger or smaller tracks.
 * Car Speed: Cars can move at one of two speeds, which can be adjusted in the configuration.
 
+## Car Behavior Flowchart
+<img width="457" alt="Screen Shot 2025-01-07 at 5 43 52 PM" src="https://github.com/user-attachments/assets/5ef28e12-4923-47b6-ad97-6e283ec5b347" />
+
 ## 🚀 Installation
 To run the simulation, you will need Python 3.8 or later and the required dependencies.
 
@@ -75,5 +78,3 @@ To modify the simulation parameters, edit the configuration in run.py:
 ## Acknowledgments
 * Built using the Mesa agent-based modeling framework.
 * Inspired by real-world traffic flow studies and dynamics.
-<img width="457" alt="Screen Shot 2025-01-07 at 5 43 52 PM" src="https://github.com/user-attachments/assets/5ef28e12-4923-47b6-ad97-6e283ec5b347" />
-
