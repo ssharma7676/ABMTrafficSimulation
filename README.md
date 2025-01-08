@@ -1,10 +1,10 @@
 # ABM Traffic Simulation
 
-## Introduction
+## 📖 Introduction
 The ABM Traffic Simulation is a Python-based project built using the Mesa framework for Agent-Based Modeling. It simulates cars navigating a circular road, adjusting their speed and direction based on their position and proximity to other cars. The simulation is designed to demonstrate traffic flow dynamics and road navigation behavior in a controlled environment.
 This project is ideal for experimenting with traffic modeling, agent interactions, and understanding the challenges of dynamic speed and direction control in constrained road systems.
 
-## Features
+## ✨ Features
 1. Circular Road Model
 * The road is represented as a MultiGrid with a wraparound layout, forming a continuous circular track.
 * Road cells are defined by CellAgent objects, ensuring proper navigation paths for cars.
@@ -19,7 +19,7 @@ This project is ideal for experimenting with traffic modeling, agent interaction
 * Grid Size: The size of the road grid can be modified for larger or smaller tracks.
 * Car Speed: Cars can move at one of two speeds, which can be adjusted in the configuration.
 
-## Installation
+## 🚀 Installation
 To run the simulation, you will need Python 3.8 or later and the required dependencies.
 
 Prerequisites
@@ -34,7 +34,7 @@ cd circular-road-simulation
 Run the simulation: 
 python run.py
 
-## How It Works
+## 🎮 How It Works
 CarAgent
 The primary agent in the simulation represents a car. Each car has:
 * Position: A tuple representing the grid coordinates.
@@ -51,17 +51,17 @@ The overarching model manages the simulation environment, including:
 * Traffic density tracking.
 * Updating car behaviors each step.
 
-## Key Components
+## 📂 Key Components
 * CarAgent: Represents individual cars on the road.
 * CellAgent: Represents road segments and tracks traffic.
 * RoadModel: Governs the simulation logic and agent interactions.
 * server.py: Handles the visualization of the simulation in a web-based interface.
 
-## Visualization
+## 📸 Visualization
 * Cars are displayed as agents moving along the grid.
 * Traffic density is visualized as a heatmap, with higher density areas appearing more intense.
 
-## Customization
+## 🖊️ Customization
 To modify the simulation parameters, edit the configuration in run.py:
 * Number of Cars: Change the value of N_CARS.
 * Grid Size: Adjust GRID_WIDTH and GRID_HEIGHT.
