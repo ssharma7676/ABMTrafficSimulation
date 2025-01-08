@@ -35,17 +35,17 @@ Run the simulation: 
 python run.py
 
 ## 🎮 How It Works
-CarAgent
+### CarAgent
 The primary agent in the simulation represents a car. Each car has:
 * Position: A tuple representing the grid coordinates.
 * Speed: Determines how many cells it moves per step.
 * Direction: Indicates whether the car is moving up, down, left, or right.
 Cars dynamically adjust their speed and direction as they navigate the circular track, responding to the environment and other agents.
 
-CellAgent
+### CellAgent
 Grid cells that represent the road or non-road areas. Each cell tracks whether it is part of the road and contributes to visualizing traffic density.
 
-RoadModel
+### RoadModel
 The overarching model manages the simulation environment, including:
 * Placement of cars and road cells.
 * Traffic density tracking.
