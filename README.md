@@ -25,11 +25,11 @@ This project is ideal for experimenting with traffic modeling, agent interaction
 ## 🚀 Installation
 To run the simulation, you will need Python 3.8 or later and the required dependencies.
 
-Prerequisites
+### Prerequisites
 Install the necessary Python libraries:
 pip install mesa matplotlib numpy
 
-Usage
+### Usage
 Clone this repository:
 git clone <repository-url>
 cd circular-road-simulation
